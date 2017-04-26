@@ -1,0 +1,511 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#"
+     xml:base="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8">
+        <rdfs:comment>Выбор фильма для просмотра</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#osnovan_na_1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#osnovan_na_1">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Boevik"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Poedinki,_presledovaniya"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#osnovan_na_10 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#osnovan_na_10">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Fantastika"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Izobrazhenie_kartiny,_ne_sootnosimoy_s_obychnymi_predstavleniyami_o_pravdopodobnosti_i_obydennosti"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#osnovan_na_2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#osnovan_na_2">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Vestern"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Atmosfera_svobody_i_nezavisimosti"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#osnovan_na_3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#osnovan_na_3">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Detektiv"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Prestupnye_deystviya,_rassledovaniya_i_opredelenie_vinovatykh"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#osnovan_na_4 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#osnovan_na_4">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Drama"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Chastnaya_zhizn&apos;_cheloveka_i_ego_ostryy_konflikt_s_obshchestvom"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#osnovan_na_5 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#osnovan_na_5">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Istoricheskiy"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Demonstratsiya_real&apos;no_proiskhodivshikh_istoricheskikh_sobytiy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#osnovan_na_6 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#osnovan_na_6">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Komediya"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Izobrazhenie_kharakterov,_konfliktov_i_situatsiy,_vyzyvayushchikh_smekh_i_povyshayushchikh_nastroenie"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#osnovan_na_7 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#osnovan_na_7">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Melodrama"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Dukhovnyy_i_chuvstvennyy_mir_geroev,_izobrazhenie_emotsiy_na_osnove_kontrasta:_dobro_i_zlo,_lyubov&apos;_i_nenavist&apos;"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#osnovan_na_8 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#osnovan_na_8">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Triller"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Izobrazhenie_kartiny,_kotoraya_vyzyvaet_oshchushchenie_napryazheniya"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#osnovan_na_9 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#osnovan_na_9">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Uzhasy"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Prizvany_napugat&apos;_zritelya"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#vyzyvaet_chuvstvo_1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#vyzyvaet_chuvstvo_1">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Boevik"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Strakh_za_geroev"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#vyzyvaet_chuvstvo_10 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#vyzyvaet_chuvstvo_10">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Fantastika"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Vostorg_ot__nauchnykh_perspektiv_razvitiya_tekhniki"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#vyzyvaet_chuvstvo_2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#vyzyvaet_chuvstvo_2">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Vestern"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Napryazhenie,_nastorozhennost&apos;"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#vyzyvaet_chuvstvo_3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#vyzyvaet_chuvstvo_3">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Detektiv"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Prinyat&apos;_rol&apos;_detektiva_i_vydvinut&apos;_svoyu_versiyu_prestupleniya"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#vyzyvaet_chuvstvo_4 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#vyzyvaet_chuvstvo_4">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Drama"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Bespokoystvo,_soperezhivanie_k_geroyam"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#vyzyvaet_chuvstvo_5 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#vyzyvaet_chuvstvo_5">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Istoricheskiy"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Interes_k_istoricheskim_faktam"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#vyzyvaet_chuvstvo_6 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#vyzyvaet_chuvstvo_6">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Komediya"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Smekh_zritelya,_povyshenie_nastroeniya,_vesel&apos;ye"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#vyzyvaet_chuvstvo_7 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#vyzyvaet_chuvstvo_7">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Melodrama"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Vzvolnovannost&apos;,_vnutrennee_perezhivanie_za_geroev"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#vyzyvaet_chuvstvo_8 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#vyzyvaet_chuvstvo_8">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Triller"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Perezhivanie,_volnenie"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#vyzyvaet_chuvstvo_9 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#vyzyvaet_chuvstvo_9">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Uzhasy"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Strakh,_trevoga,_uzhas,_napryazhennoe_ozhidanie_chego-libo_uzhasnogo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Atmosfera_svobody_i_nezavisimosti -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Atmosfera_svobody_i_nezavisimosti">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Vestern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Boevik -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Boevik">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Fil&apos;m_dlya_prosmotra"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Detektiv -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Detektiv">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Fil&apos;m_dlya_prosmotra"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Drama -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Drama">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Fil&apos;m_dlya_prosmotra"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Fantastika -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Fantastika">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Fil&apos;m_dlya_prosmotra"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Interes_k_istoricheskim_faktam -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Interes_k_istoricheskim_faktam">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Istoricheskiy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Istoricheskiy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Istoricheskiy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Fil&apos;m_dlya_prosmotra"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Komediya -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Komediya">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Fil&apos;m_dlya_prosmotra"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Melodrama -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Melodrama">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Fil&apos;m_dlya_prosmotra"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Strakh_za_geroev -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Strakh_za_geroev">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Boevik"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Triller -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Triller">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Fil&apos;m_dlya_prosmotra"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Uzhasy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Uzhasy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Fil&apos;m_dlya_prosmotra"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Vestern -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Vestern">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Fil&apos;m_dlya_prosmotra"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Vostorg_ot__nauchnykh_perspektiv_razvitiya_tekhniki -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Vostorg_ot__nauchnykh_perspektiv_razvitiya_tekhniki">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Fantastika"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Bespokoystvo,_soperezhivanie_k_geroyam -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Bespokoystvo,_soperezhivanie_k_geroyam">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Drama"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Chastnaya_zhizn&apos;_cheloveka_i_ego_ostryy_konflikt_s_obshchestvom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Chastnaya_zhizn&apos;_cheloveka_i_ego_ostryy_konflikt_s_obshchestvom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Drama"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Demonstratsiya_real&apos;no_proiskhodivshikh_istoricheskikh_sobytiy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Demonstratsiya_real&apos;no_proiskhodivshikh_istoricheskikh_sobytiy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Istoricheskiy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Dukhovnyy_i_chuvstvennyy_mir_geroev,_izobrazhenie_emotsiy_na_osnove_kontrasta:_dobro_i_zlo,_lyubov&apos;_i_nenavist&apos; -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Dukhovnyy_i_chuvstvennyy_mir_geroev,_izobrazhenie_emotsiy_na_osnove_kontrasta:_dobro_i_zlo,_lyubov&apos;_i_nenavist&apos;">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Melodrama"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Fil&apos;m_dlya_prosmotra -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Fil&apos;m_dlya_prosmotra"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Izobrazhenie_kartiny,_kotoraya_vyzyvaet_oshchushchenie_napryazheniya -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Izobrazhenie_kartiny,_kotoraya_vyzyvaet_oshchushchenie_napryazheniya">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Triller"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Izobrazhenie_kartiny,_ne_sootnosimoy_s_obychnymi_predstavleniyami_o_pravdopodobnosti_i_obydennosti -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Izobrazhenie_kartiny,_ne_sootnosimoy_s_obychnymi_predstavleniyami_o_pravdopodobnosti_i_obydennosti">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Fantastika"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Izobrazhenie_kharakterov,_konfliktov_i_situatsiy,_vyzyvayushchikh_smekh_i_povyshayushchikh_nastroenie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Izobrazhenie_kharakterov,_konfliktov_i_situatsiy,_vyzyvayushchikh_smekh_i_povyshayushchikh_nastroenie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Komediya"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Napryazhenie,_nastorozhennost&apos; -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Napryazhenie,_nastorozhennost&apos;">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Vestern"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Perezhivanie,_volnenie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Perezhivanie,_volnenie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Triller"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Poedinki,_presledovaniya -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Poedinki,_presledovaniya">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Boevik"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Prestupnye_deystviya,_rassledovaniya_i_opredelenie_vinovatykh -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Prestupnye_deystviya,_rassledovaniya_i_opredelenie_vinovatykh">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Detektiv"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Prinyat&apos;_rol&apos;_detektiva_i_vydvinut&apos;_svoyu_versiyu_prestupleniya -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Prinyat&apos;_rol&apos;_detektiva_i_vydvinut&apos;_svoyu_versiyu_prestupleniya">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Detektiv"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Prizvany_napugat&apos;_zritelya -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Prizvany_napugat&apos;_zritelya">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Uzhasy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Smekh_zritelya,_povyshenie_nastroeniya,_vesel&apos;ye -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Smekh_zritelya,_povyshenie_nastroeniya,_vesel&apos;ye">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Komediya"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Strakh,_trevoga,_uzhas,_napryazhennoe_ozhidanie_chego-libo_uzhasnogo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Strakh,_trevoga,_uzhas,_napryazhennoe_ozhidanie_chego-libo_uzhasnogo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Uzhasy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Vzvolnovannost&apos;,_vnutrennee_perezhivanie_za_geroev -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Vzvolnovannost&apos;,_vnutrennee_perezhivanie_za_geroev">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Melodrama"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Boevik"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Detektiv"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Drama"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Fantastika"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Istoricheskiy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Komediya"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Melodrama"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Triller"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Uzhasy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2017/3/untitled-ontology-8#Vestern"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
