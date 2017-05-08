@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Corner Template</title>
+<title>Olga Kabachok</title>
 <meta name="keywords" content="corner template, html css layout, one page, 5 sections, templatemo" />
 <meta name="description" content="Corner Template is a mini site layout in one page, 5 sections" />
 <link href="templatemo_style.css" rel="stylesheet" type="text/css" />
@@ -19,7 +19,7 @@
         <div id="templatemo_menu">
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#aboutus">About</a></li>
+                <li><a href="#lab">Лабораторные работы</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li class="last"><a href="#contactus">Contact</a></li>
@@ -33,7 +33,7 @@
     	<div class="content_box">
         	<div class="content_title content_home"></div>
         	
-       	  <h2>Introducing Corner Template</h2>
+       	  <h2>Здесь размещены лабораторные работы по ИИС</h2>
                 <div class="image_wrapper image_fl"><img src="images/templatemo_image_01.jpg" alt="Image" /><span></span></div>
                 <p><em>Praesent rutrum augue vel felis vehicula vel luctus sapien commodo. Aenean convallis, sem in tempus dictum, lorem urna luctus augue, et tempor justo orci in elit.</em></p>
                 
@@ -63,14 +63,67 @@
             <a href="#" class="gototop">Go To Top</a>
         </div>
         
-        <div id="aboutus" class="content_top"></div>
+        <div id="lab" class="content_top"></div>
         <div class="content_box">
         	<div class="content_title content_aboutus"></div>
         	
-       	  <h2>About Us</h2>
+       	  <h2>Семантическая сеть</h2>
                 <div class="image_wrapper image_fr"><img src="images/templatemo_image_02.jpg" alt="Image" /><span></span></div>
-                <p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur volutpat enim nec dolor. Nunc euismod lectus eu neque ultrices laoreet. Aenean et velit tincidunt ante porttitor facilisis. Quisque in turpis vitae enim blandit vehicula.</p>
-                <p align="justify">Nullam a tortor est, congue fermentum nisi. Maecenas nulla nulla, lobortis eu volutpat euismod, scelerisque ut dui. Integer luctus tellus ac mi malesuada dignissim. Sed id diam dui. In ut nunc urna.</p>
+                <p align="justify">Практическая работа ИИС №2-3.</p>
+                <p align="justify">Построить семантическую сеть, которая отображает отношения для следующего объекта знаний или алгоритма. Построить графическое изображение семантической сети, используя специализированные средства для размещения на html-странице.
+Семантическая сеть на тему «Выбор фильма для просмотра».
+
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- 
+	Template 2048 Floral Design
+	by www.tooplate.com 
+-->
+<script type="text/javascript" src="https://www.google.com/jsapi"></script> 
+<script type="text/javascript"> 
+google.load("visualization", "1.1", {packages:["wordtree"]}); 
+google.setOnLoadCallback(drawChart); 
+function drawChart() { 
+var data = google.visualization.arrayToDataTable( 
+[ ['Фразы'],
+['Фильмы включают: боевик основанный на: поединках,  вызывающих чувство переживания'],
+['Фильмы включают: боевик основанный на: поединках,  вызывающих чувство волнения'],
+['Фильмы включают: боевик основанный на: преследованиях, вызывающих чувство страха'], 
+['Фильмы включают: боевик основанный на: преследованиях, вызывающих чувство напряжения'], 
+['Фильмы включают: вестерн основанный на: атмосфере свободы, вызывающей чувство: безграничности'],
+['Фильмы включают: вестерн основанный на: атмосфере свободы, вызывающей чувство: настороженности'],
+['Фильмы включают: вестерн основанный на: независимости, вызывающей чувство: волнения'],
+['Фильмы включают: вестерн основанный на: независимости,  вызывающей чувство: интереса'], 
+['Фильмы включают: комедию основанную на: смешных ситуациях, вызывающих чувство повышенного настроения'],
+['Фильмы включают: комедию основанную на: смешных ситуациях, вызывающих чувство  веселья'], 
+['Фильмы включают: комедию основанную на: интересных ситуациях, вызывающих чувство  любопытства'],  
+['Фильмы включают: комедию основанную на: интересных ситуациях, вызывающих чувство  удивления'],  
+['Фильмы включают: мелодраму основанную на: духовном мире героев, вызывающим чувство: взволнованности'],
+['Фильмы включают: мелодраму основанную на: духовном мире героев, вызывающим чувство: страха за героев'], 
+['Фильмы включают: мелодраму основанную на: ярком изображении эмоций, вызывающих чувство: сопереживания за героев'], 
+['Фильмы включают: мелодраму основанную на: ярком изображении эмоций, вызывающих чувство: сострадания'],
+]
+);
+var options = {
+maxFontSize: 9,
+ wordtree: {
+ format: 'implicit',
+ word: 'Фильмы'
+ }
+ };
+ 
+var chart = new google.visualization.WordTree(document.getElementById('wordtree_basic')); 
+chart.draw(data, options); 
+} 
+</script> 
+</head> 
+<body> 
+<div id="wordtree_basic" style="width: 110%; height: 500px;"></div> 
+</body> 
+
+
+
+</p>
                 <div class="cleaner h30"></div>
                 
                 <div class="col_w310 float_l">
