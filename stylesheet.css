@@ -1,0 +1,119 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin:0px;
+	background-color: #002528;
+}
+p {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	line-height:20px;
+	margin-top:20px;
+}
+h1 {
+	font-family:Tahoma, Verdana, Arial;
+	font-size:27px;
+	line-height:40px;
+	text-align:center;
+	letter-spacing:-1px;
+}
+h3 {
+	font-family:Tahoma, Verdana, Arial;
+	font-size:27px;
+	line-height:40px;
+	text-align:center;
+	letter-spacing:-1px;
+	margin-top:0px;
+}
+h4 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:21px;
+	line-height:33px;
+	text-align:center;
+	letter-spacing:-1px;
+	margin-top:20px;
+	font-weight:bold;
+	font-style:italic;
+}
+ul {
+}
+li {
+	list-style:url(images/bullet.png);
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	margin-bottom:20px;
+	line-height:20px;
+}
+#maincontainer {
+	background-image:url(images/bg-x.gif);
+	background-repeat:repeat-x;
+	width:100%;
+	height:auto;
+}
+#header {
+	background-image: url(images/header.jpg);
+	height: 102px;
+	width: 700px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	overflow: hidden;
+}
+#contentbg {
+	background-image: url(images/contentbg.gif);
+	background-repeat: repeat-y;
+	height: auto;
+	width: 620px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding-right: 40px;
+	padding-left: 40px;
+	overflow: hidden;
+}
+.johnsonbox-top {
+	background-image:url(images/johnsonbox-top.gif);
+	height: 27px;
+	width: 579px;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	overflow: hidden;
+}
+.johnsonbox-mid {
+	background-image: url(images/johnsonbox-mid.gif);
+	background-repeat: repeat-y;
+	height: auto;
+	width: 519px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding-right: 30px;
+	padding-left: 30px;
+	overflow: hidden;
+}
+.johnsonbox-bottom {
+	background-image: url(images/johnsonbox-bottom.gif);
+	height: 27px;
+	width: 579px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 30px;
+	margin-left: auto;
+	overflow: hidden;
+}
+#footer {
+	background-image: url(images/footer.jpg);
+	height: 39px;
+	width: 700px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 50px;
+	margin-left: auto;
+	overflow: hidden;
+}
